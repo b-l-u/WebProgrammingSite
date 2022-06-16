@@ -16,6 +16,15 @@ h1,p,a, nav, table, h2, h3, ul,ol,li{
 	color: floralwhite;
 }
 
+a:hover{
+	color: cadetblue;
+}
+
+.fulltd{
+	color: black;
+	text-align: center;
+}
+
 nav{
 	font-size: 30px;
 	text-align: center;
@@ -29,7 +38,10 @@ caption{
 	text-decoration: underline;
 }
 
+tr, td, th{
 
+	border: 0px;
+}
 
 h2{
 	border: 3px solid navajowhite;
@@ -50,6 +62,7 @@ table{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	border: 0px;
 }
 
 p{
@@ -73,15 +86,19 @@ hr{
 
 }
 
-.tr2 {
+.tr2, .tablelink{
 	background-color: whitesmoke;
 	color: black;
 }
 
 #name{
-
+	margin-top: 0;
 	text-align: center;
 	background-color: navajowhite;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
 	
  }
 
@@ -127,22 +144,33 @@ hr{
 }
 
 #Educationandid{
-	align-content: center;
-	background-color: purple;
+	display: flex;
+	justify-content: center;
 }
 #Education{
 	display: inline-block;
 	list-style-position: initial;
-	background-color: yellowgreen;
-	position: relative;
+	
+	
+	margin-left: 20% auto;
+	
 }
 #Jobs{
 	display: inline-block;
-	background-color: yellowgreen;
-	position: relative;
+	margin-right: 10%  auto;
+	
 }
 
 .listhead{
-	text-align: center;
-	margin-bottom:0px;
-list-style: unset;}
+	text-align: initial;
+	margin-bottom: 0;
+}
+
+.listhead2{
+	text-align: initial;
+}
+
+#quote{
+	font-size: 20px;
+}
+
