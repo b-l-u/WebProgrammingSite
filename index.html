@@ -7,14 +7,17 @@
 	<body>
 	<h1>Welcome To My Home Page</h1>
 	<p>Scroll or Click through this  page to learn alittle about me and see the work I am accomplishing at <a href="https://csds.gsu.edu/">Georgia State University</a> in my Web Programming course. </p>
+	<div id="quote"> 
+		<p>"A Jack Of All Trades Is A Master Of None But Oftentimes Better Than A Master Of One"<p>
+	</div>
 		<img src="stockphoto.jpg"  alt="This is a picture of me"></img>
 		<h3 id="name">Michael McCain</h3>
 		<nav> 
-			<ul>Assignments</ul>
-			<ul>Education & Jobs</ul>
-			<ul>Interests & Hobbies</ul>
+			<a href="#assignments"><ul>Assignments</ul></a>
+			<a href="#education"><ul>Education & Jobs</ul></a>
+			<a href="#interest"><ul>Interests & Hobbies</ul></a>
 		</nav>
-		<h2>Assignments</h2><span></span>
+		<h2 id="assignments">Assignments</h2><span></span>
 			<hr/>
 			<div>
 			<table>
@@ -25,32 +28,33 @@
 					<th>Due Date</th>
 				</tr>
 				<tr class="tr2">
-					<a><td>Homepage</td></a>
+					<td><a class="fulltd" href="https://b-l-u.github.io/WebProgrammingSite/">
+					Homepage</td></a>
 					<td>Create Your Own Original Homepage</td>
 					<td>June 6,2022</td>
 				</tr>
 				<tr class="tr1">
-					<a><td>CSS</td></a>
+					<td><a href="#">CSS</a></td>
 					<td>TBA</td>
 					<td>June 22,2022</td>
 				</tr>
 				<tr class="tr2">
-					<a><td>PHP</td></a>
+					<td><a  class="fulltd" href="#">PHP</a></td>
 					<td>TBA</td>
 					<td>June 29,2022</td>
 				</tr>
 				<tr class="tr1">
-					<a><td>JAVA Script</td></a>
+					<td><a href="#">JAVA Script</a></td>
 					<td>TBA</td>
 					<td>July 6,2022</td>
 				</tr>
 				<tr class="tr2">
-					<a><td>React</td></a>
+					<td><a  class="fulltd" href="#">React</a></td>
 					<td>TBA</td>
 					<td>July 13,2022</td>
 				</tr>
 				<tr class="tr1">
-					<a><td>PHP, MySql</td></a>
+					<td><a href="#">PHP, MySql</a></td>
 					<td>TBA</td>
 					<td>July 20,2022</td>
 				</tr>
@@ -67,17 +71,17 @@
 					<th>Due Date</th>
 				</tr>
 				<tr class="tr2">
-					<a><td>HTML, CSS, PHP</td></a>
-					<td>Create Your Own Original Homepage</td>
+					<td><a class="fulltd" href="#">HTML, CSS, PHP</a></td>
+					<td>TBA</td>
 					<td>June 25,2022</td>
 				</tr>
 				<tr class="tr1">
-					<a><td>JAVA Script</td></a>
+					<td><a href="#">JAVA Script</a></td>
 					<td>TBA</td>
 					<td>July 11,2022</td>
 				</tr>
 				<tr class="tr2">
-					<a><td>All Framework</td></a>
+					<td><a  class="fulltd" href="#">All Framework</a></td>
 					<td>TBA</td>
 					<td>July 30,2022</td>
 				</tr>
@@ -85,7 +89,7 @@
 			</table>
 			</div>
 
-		<h2>Interests & Hobbies</h2>
+		<h2 id="interest">Interests & Hobbies</h2>
 			<hr>
 			<div id="lists">
 				<div>
@@ -94,7 +98,7 @@
 			<h3>Interest & Hobbies</h3>				
 				<ul>
 					<li>Exercising</li>
-					<li>Hiking</li>
+					<a href="https://www.atlantatrails.com/hiking-trails/atlantas-best-hiking-trails-our-top-10-favorite-hikes/"><li>Hiking</li></a>
 					<li>Cooking & Baking</li>
 					<li>Gaming</li>
 					<li>Sports</li>
@@ -118,17 +122,17 @@
 
 				<h3>Top Five Favorite Foods</h3>
 				<ol>
-					<li>Baked Penne</li>
+					<a href="https://www.thespruceeats.com/baked-ziti-with-ground-beef-cheese-3057389"><li>Baked Penne</li></a>
 					<li>Oxtails</li>
 					<li>Cheesecake</li>
 					<li>Blackened Red Snapper</li>
-					<li>Brownies</li>
+					<a href="https://thestayathomechef.com/brownie-recipe/"><li>Brownies</li></a>
 				</ol>
 				</div>
 				</div>
 			
 		</div>
-		<h2>Education & Jobs</h2>
+		<h2 id="education">Education & Jobs</h2>
 			<hr>
 			<div id="Educationandid">
 				<div id="Education">
@@ -145,7 +149,7 @@
 			<ul>
 				<li><h3 class="listhead">Jobs</h3>
 					<ul>
-						<li> Line Cook
+						<li class="listhead2"> Line Cook
 							<ul>
 								<li>Lucias Italian</li>
 								<li>Rowdy Tiger Whiskey Bar & Kitchen</li>
