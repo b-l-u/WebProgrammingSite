@@ -16,6 +16,11 @@ h1,p,a, nav, table, h2, h3, ul,ol,li{
 	color: floralwhite;
 }
 
+span{
+	font-style: bold;
+	color: red;
+}
+
 a:hover{
 	color: cadetblue;
 }
