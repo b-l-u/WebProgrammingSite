@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 	<title> Internet Kitchen </title>
 	<link  href="stylesheet.css" rel="stylesheet">
+	<meta charset="UTF-8">
 	</head>
 	<body>
 	<h1>Welcome To My Home Page</h1>
@@ -10,13 +11,17 @@
 	<div id="quote"> 
 		<p>"A Jack Of All Trades Is A <span> Master </span> Of None But Oftentimes Better Than A <span>Master </span>Of One"<p>
 	</div>
-		<img src="stockphoto.jpg"  alt="This is a picture of me"></img>
+		<img src="stockphoto.jpg"  alt="This is a picture of me">
 		<h3 id="name">Michael McCain</h3>
-		<nav> 
-			<a href="#assignments"><ul>Assignments</ul></a>
-			<a href="#education"><ul>Education & Jobs</ul></a>
-			<a href="#interest"><ul>Interests & Hobbies</ul></a>
-		</nav>
+		<div id="nav_list">
+			
+			<ul id="styledlist">
+			<li><a href="#assignments">Assignments</a></li>
+			<li><a href="#education">Education & Jobs</a></li>
+			<li><a href="#interest">Interests & Hobbies</a></li>
+			</ul>
+			
+		</div>
 		<h2 id="assignments">Assignments</h2>
 			<hr/>
 			<div>
@@ -29,7 +34,7 @@
 				</tr>
 				<tr class="tr2">
 					<td><a class="fulltd" href="https://b-l-u.github.io/WebProgrammingSite/">
-					Homepage</td></a>
+					Homepage</a></td>
 					<td>Create Your Own Original Homepage</td>
 					<td>June 6,2022</td>
 				</tr>
@@ -98,7 +103,7 @@
 			<h3>Interest & Hobbies</h3>				
 				<ul>
 					<li>Exercising</li>
-					<a href="https://www.atlantatrails.com/hiking-trails/atlantas-best-hiking-trails-our-top-10-favorite-hikes/"><li>Hiking</li></a>
+					<li><a href="https://www.atlantatrails.com/hiking-trails/atlantas-best-hiking-trails-our-top-10-favorite-hikes/">Hiking</a></li>
 					<li>Cooking & Baking</li>
 					<li>Gaming</li>
 					<li>Sports</li>
@@ -122,11 +127,12 @@
 
 				<h3>Top Five Favorite Foods</h3>
 				<ol>
-					<a href="https://www.thespruceeats.com/baked-ziti-with-ground-beef-cheese-3057389"><li>Baked Penne</li></a>
+					<li>
+					<a href="https://www.thespruceeats.com/baked-ziti-with-ground-beef-cheese-3057389">Baked Penne</a></li>
 					<li>Oxtails</li>
 					<li>Cheesecake</li>
 					<li>Blackened Red Snapper</li>
-					<a href="https://thestayathomechef.com/brownie-recipe/"><li>Brownies</li></a>
+					<li><a href="https://thestayathomechef.com/brownie-recipe/">Brownies</a></li>
 				</ol>
 				</div>
 				</div>
@@ -162,6 +168,7 @@
 				</div>
 
 			</div>
+		</div>
 
 	</body>
 </html>
